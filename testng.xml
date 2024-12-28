@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Selenium Grid Suite">
+    <test name="Grid Test">
+        <parameter name="browser" value="chrome" />
+        <parameter name="gridURL" value="hub-cloud.browserstack.com" />
+        <classes>
+            <class name="Tests.GoogleTest" />
+        </classes>
+    </test>
+</suite>
